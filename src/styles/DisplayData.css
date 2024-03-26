@@ -1,0 +1,9 @@
+.datacarts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    min-height: 380px;
+}

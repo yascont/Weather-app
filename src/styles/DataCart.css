@@ -1,0 +1,23 @@
+section .datacart{
+    display: flex;
+    flex-direction: column;
+    background-color: #748CF1;
+    width: calc(30% );
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    gap: 0;
+}
+
+.datacart .name, .datacart .value{
+    margin : 0;
+    padding: 5px 30px;
+}
+
+.datacart .name{
+    padding-top: 20px;
+}
+
+.datacart .value{
+    padding-bottom: 20px;
+}
